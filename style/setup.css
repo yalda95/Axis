@@ -1,0 +1,23 @@
+.setup {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+.setup-item {
+    text-align: center;
+    margin-inline:1rem ;
+}
+.setup-item_icon {
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.2rem;
+    margin: 0 auto;
+    
+}
+
+.setup-item h2
+.setup-item p {
+    text-align: center;
+}

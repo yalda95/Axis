@@ -1,0 +1,26 @@
+footer {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    background: rgb(7, 7, 17);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.col-1 {
+    
+    width: 20%;
+}
+.col-2 ul li,
+.col-3 ul li,
+.col-4 ul li {
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+footer div ul li:hover {
+ color: var(--clr-secondary-buttom-galaxy);
+}
+.col-basic:first-child {
+    font-weight: bold;
+}
