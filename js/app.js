@@ -39,7 +39,7 @@ function myFunction() {
 const validateEmail = () => {
   let mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
   if(email.value.match(mailFormat)) {
-    alert("We Will recieve new updates in your e-mail soon!")
+    alert("you will recieve new updates in your e-mail soon!")
   }else if(email.value === ""){
     alert('please fill the email section')
   }else {
