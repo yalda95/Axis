@@ -3,6 +3,9 @@ header {
     align-items: center;
     border-bottom: 0.1rem solid var(--clr-primary-grayish-blue);
     animation: header 1s ease 0s 1 normal forwards;
+    z-index: 100;
+    position: fixed;
+    top: 0;
 }
 @keyframes header {
     0% {

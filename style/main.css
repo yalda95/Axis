@@ -9,14 +9,14 @@
 
     /* font size */
 
-    --fs-300:1.12rem;
+    --fs-300:1.rem;
     --fs-400:1.5rem;
     --fs-600:2.75rem;
     --fs-900:3.25rem;
 
     /* font families */
     --ff-poppins: 'Poppins', sans-serif;
-
+    --ff-lato:'lato', sans-serif;
 
 }
 
@@ -48,7 +48,7 @@ picture {
 body {
     line-height: 1.5;
     min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'lato', sans-serif;
 }
 
 /* make images easrier to work with  */
@@ -102,7 +102,7 @@ select {
 .container {
     width: 100%;
     margin-inline: auto;
-    padding-inline:10rem;
+    padding-inline:2rem;
 }
 
 /* colors */

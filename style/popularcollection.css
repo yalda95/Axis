@@ -25,28 +25,40 @@
     align-items: center;
 }
 .popular-collection_item {
-    width: 30rem;
-    height: 28rem;
+    width: 25rem;
+    padding: 1rem;
     border-radius: 1rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
+.popular-collection_item:hover {
+    animation: popularItem 1.5s ease 0s 1 normal forwards;
+}
+@keyframes popularItem {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-50px);
+    }
+  }
 .popular-collection_item--images {
     width: 100%;
-    height: 20rem;
+    height: 15rem;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .popular-collection_item--images img {
     border-radius: 1rem;
 }
 .inner {
+    width: 10rem;
     margin-top: 0.5rem;
 }
 .popular-collection_creator {
     width: 100%;
-    padding-inline: 2rem;
 }
 .popular-collection_creator--image {
     width: 6rem;

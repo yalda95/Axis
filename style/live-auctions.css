@@ -21,6 +21,7 @@
     border-bottom: 0.1rem solid var(--clr-secondary-buttom-galaxy);
 }
 .live-auction-container {
+    max-width: 100rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -28,6 +29,7 @@
     
 }
 .live-auction_item {
+    width: 20%;
     padding: 1.5rem;
     border-radius: 1rem;
     cursor: pointer;
